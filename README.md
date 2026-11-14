@@ -48,6 +48,19 @@ means the product is safe. Production destructive tests.
 | 9 | [Tool supply chain](classes/ai/09-tool-supply-chain.md) | A tool description or a plugin changes after it was allowed. |
 | 10 | [Measurement traps](classes/ai/10-measurement-traps.md) | A score, a sentence, or a loose check is reported as the effect. |
 
+## Web3 classes
+
+| # | Class | One-liner |
+| --- | --- | --- |
+| 1 | [Split ledger](classes/web3/01-split-ledger.md) | One deposit, two stores, they disagree. |
+| 2 | [Share inflation](classes/web3/02-share-inflation.md) | The first share’s price is a gift the next depositor pays. |
+| 3 | [Fee on the balance](classes/web3/03-fee-on-gain.md) | Profit is specified. Principal is charged. |
+| 4 | [Wrong storage slot](classes/web3/04-storage-layout.md) | The upgrade reads the neighboring variable. |
+| 5 | [Call before state](classes/web3/05-call-before-state.md) | The external call sees the old balance. |
+| 6 | [Signature replay](classes/web3/06-signature-replay.md) | The same signature works twice. |
+| 7 | [Price source](classes/web3/07-price-source.md) | The price is spot the caller just moved, or it is old. |
+| 8 | [Missing owner check](classes/web3/08-missing-owner-check.md) | The admin function does not look at the caller. |
+
 Example assertions: [examples/assertions.md](examples/assertions.md).
 
 ## Who maintains this
