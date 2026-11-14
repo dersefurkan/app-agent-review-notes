@@ -1,6 +1,6 @@
 # garak
 
-Version 0.17.1. Binary `/home/ELEM/ai-agent-security/.venv/bin/garak`. Clone `repos/garak`. Installed 0.17.1 was not compared line by line with clone `0.17.2.pre1`.
+Version 0.17.1. The installed copy was not compared line by line with the slightly newer clone.
 
 Use `--target_type`. Week 1 used older `--model_type`; both still exist in 0.17.1. New work uses the current flag. Generator options are JSON. YAML returned “Expecting value”. File: `06-pratik-plan/hafta1-garak-rest.json`. Set `rest.RestGenerator.uri`, body fields `model`, `messages`, `max_tokens`, and `temperature`, Bonsai `chat_template_kwargs.enable_thinking` false, and `response_json_field` `$.choices[0].message.content`. Do not write keys into the file. The customer keeps the variable on their endpoint.
 

@@ -2,7 +2,7 @@
 
 2026-11-14. No invented runs.
 
-promptfoo, garak, PyRIT, DeepTeam, and Inspect call a chat endpoint (customer or local Bonsai). They own no bank or calendar. AgentDojo may attach a model; its tools are the suite's fake world, not customer production tools. torch is `2.15.0+cpu`, no CUDA wheel. Banking utility used about 7777/8151 MiB, no second model fits.
+promptfoo, garak, PyRIT, DeepTeam, and Inspect call a chat endpoint (customer or local Bonsai). They own no bank or calendar. AgentDojo may attach a model; its tools are the suite's fake world, not customer production tools. torch is `2.15.0+cpu`, no CUDA wheel. Banking utility used about 7777/8151 MiB; no second model fits.
 
 **promptfoo** 0.119.0 (`npx`). Same-config eval. Red team is a plugin id, not prompt text. Ran: local Bonsai, output exactly `pong`. No red team.
 

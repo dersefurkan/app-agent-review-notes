@@ -10,4 +10,4 @@ If no injection task is passed, the pipeline skips the check and returns true. T
 
 Run alone as a user task, the goal check can sit in the utility slot while security stays the early true. Two trues are not two measurements. Both checks can fail while a payment still goes out.
 
-Lab source: /home/ELEM/ai-agent-security/07-profesor/11-olcme-bilimi.md
+Lab source: the local measurement note. Not a public client file.
